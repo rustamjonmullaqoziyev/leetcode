@@ -5,6 +5,7 @@ import 'package:leetcode/3.dart';
 import 'package:leetcode/3110.dart';
 import 'package:leetcode/3264.dart';
 import 'package:leetcode/3280.dart';
+import 'package:leetcode/392.dart';
 
 void main(List<String> arguments) {
   // print(lengthOfLongestSubstring("pwwkew"));
@@ -15,5 +16,6 @@ void main(List<String> arguments) {
   // print(subsetXORSum([5,1,6]));
   // print(convertDateToBinary("1900-01-01"));
   // getFinalState([2,1,3,5,6],5,2);
-  mostWordsFound(["alice and bob love leetcode","i think so too","this is great thanks very much"]);
+  // mostWordsFound(["alice and bob love leetcode","i think so too","this is great thanks very much"]);
+  isSubsequence("abc","ahbgdc");
 }
